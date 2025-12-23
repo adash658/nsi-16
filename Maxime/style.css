@@ -1,0 +1,95 @@
+.color_red {
+	  background-color: #ec0e5c;
+}
+.color_gray {
+	  background-color: #dcdcdc;
+}
+.color_gold {
+	  background-color: goldenrod;
+}
+.color_lime {
+	  background-color: #bab100;
+}
+.color_green {
+	  background-color: #009d86;
+}
+.color_pink {
+	  background-color: #f55180;
+}
+th,td {
+	  border: solid black;
+	  background-color:rgb(236, 151, 111);
+	  text-align: center;
+}
+th {
+	  background-color: rgb(81, 29, 4);
+}
+
+.gold {
+	  color: gold;
+}
+
+.red {
+	 color:rgb(192, 2, 2);
+}
+
+.whitewhite {
+	  color: white;
+}
+.pink {
+	color:rgb(254, 179, 254);
+}
+
+.bandeauGPE {
+	background-color:rgb(134, 96, 0);
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+
+
+.bandeau15 {
+	background-color: #aa0740;
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+.bandeau16 {
+	background-color:#a33655;
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+.bandeau17 {
+	background-color:#817d30;
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+.bandeau18 {
+	background-color:#147768;
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+.bandeau19 {
+	background-color:#a9a8a8;
+	@media screen and (max-width: 800px) {
+  nav {
+	  visibility : hidden
+  }
+}
+}
+.border {
+	border: dotted rgb(0, 0, 255) 
+}

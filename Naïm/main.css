@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Iammusic";
+    src: url('police/IAmMusic-Regular.ttf-_4_.ttf');
+}
+@font-face {
+    font-family: "dows";
+    src: url('police/Perfect\ DOS\ VGA\ 437\ Win.ttf');
+}
+@font-face {
+    font-family: "Dielit";
+    src: url('police/BECKETT_.TTF');
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: black;
+    margin: 0; 
+    border: 2px dashed red;
+    position: relative; 
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px; 
+    height: 100vh;
+    background-image: url('images/background\ truc.png'); 
+    background-repeat: repeat-y;
+    background-size: 20px auto; 
+    background-position: center;
+    pointer-events: none;
+    z-index: 0; 
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px; 
+    height: 100vh;
+    background-image: url('images/background\ truc.png'); 
+    background-repeat: repeat-y;
+    background-size: 20px auto;
+    background-position: center;
+    pointer-events: none;
+    z-index: 0;
+}
+
+#top, #header, #story {
+    margin-left: 50px;  
+    margin-right: 50px;
+    position: relative; 
+    z-index: 1;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: minmax(100px, 3fr) minmax(100px, 2fr) minmax(100px, 3fr);
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+#wlr {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+.planets {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+#p1 {
+    grid-column: 1 / 2;
+}
+#p2 {
+    grid-column: 3 / 4;
+}
+#t1{
+    grid-column: 2 / 3;
+}
+#header{
+    display: grid;
+    grid-template-columns: minmax(100px, 3fr) minmax(100px , 2fr) minmax(100px, 2fr) minmax(100px, 3fr);
+    grid-template-rows: 0,25fr 1fr 0.5fr 1fr 0.25;
+    align-items: center;
+    justify-items: center;
+}
+#t-1{
+    grid-column: 2 / span 2;
+    grid-row: 1 / 2;
+    margin:20px;
+    font-family: "Iammusic";
+}
+#portrait1{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 0;
+}
+#portrait2{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+#cover {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+#o1{
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+}
+#t0{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+#t3 ,#t0{
+    font-family: "Dielit";
+    font-size: 30px;
+}
+.portraits{
+    width: 100%;
+    max-width: 168px;
+    height: auto;
+    border: 2px dashed red;
+}
+#story{
+    display: grid;
+    grid-template-columns: minmax(100px, 3fr) minmax(100px , 2fr) minmax(100px, 2fr) minmax(100px, 3fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+#story > *{
+    grid-column: 2 / 4;
+    justify-self: stretch;
+}
+
+#t2{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: "Iammusic";
+} 
+#biography{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+} 
+#t3{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    text-align: center;
+}
+#Die4guy{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p{
+    font-family: "dows";
+    color: #dd0207;
+}
+.a1{
+    color: #dd0207;
+    font-family: "dows";
+}
+.titles{
+    font-family: "Iammusic";
+}
+#tableau{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;   
+    font-family: "dows";
+}
+#tableau th,
+#tableau td{
+    border: 1px solid #dd0207;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
