@@ -63,6 +63,7 @@ h1, h2 {
     margin-bottom: 30px;
     margin-top: 30px;
     text-shadow: 2px 2px 4px black;
+    text-align: center;
 }
 
 table {
@@ -147,7 +148,13 @@ footer {
 
 @media screen and (max-width: 1200px) {
     body {
-        font-size: 17px;
+        font-size: 40px;
+    }
+    body .autre-page {
+        font-size: 40px;
+    }
+    #important, #conclusion {
+        font-size: 45px;
     }
     h1, h2 {
         letter-spacing: 1px;
@@ -179,7 +186,13 @@ footer {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 15px;
+        font-size: 50px;
+    }
+    body .autre-page {
+        font-size: 50px;
+    }
+    #important, #conclusion {
+        font-size: 55px;
     }
     h1, h2 {
         letter-spacing: 1px;
@@ -212,4 +225,5 @@ footer {
         gap: 10px;
         padding: 2px 1px 2px 1px;
     }
+
 }
