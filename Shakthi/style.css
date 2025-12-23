@@ -1,0 +1,689 @@
+/*Page initiale*/
+#main{
+	background-image: url("Image/main_bg.jpg");
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	margin: 0;
+}
+
+#accueil{
+	width: 100%;
+	text-align: center
+}
+
+#accueil h1{
+	font-size: 70px;
+	font-style: italic;
+	text-decoration: underline;
+	color: #F2F2F2;
+}
+
+#accueil p{
+	text-align: justify;
+	margin: 0 90px 30px 90px;
+	font-size: 20px;
+	font-family: 'Times New Roman', Arial , sans-serif;
+	line-height: 1.5;
+	color: #F2F2F2;
+}
+
+.entrée{
+	width: 250px;
+	height: 100px;
+	background-color: #C5F6FF;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	display: flex;            
+    justify-content: center;
+    align-items: center;     
+	font-family: 'Times New Roman', Arial, sans-serif;
+	font-size: 40px;
+	text-decoration: None;
+	color: black;
+	box-shadow: 0 10px 20px black;
+}
+
+.entrée:hover{
+	box-shadow: 0 30px 50px black;
+}
+
+#bas_g{
+	box-shadow: 0px -10px 5px black;
+}
+
+/*Garage présentant les voitures*/
+
+/*En tête*/
+.bande{
+	background-color: white;
+	font-size: 50px;
+	font-style: italic;
+	text-decoration: underline;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+	height: 150px;
+	box-shadow: 0px 10px 10px black;
+	
+}
+
+.return{
+	position: absolute;
+    left: 75px;
+}
+.return:hover{
+	font-size: 55px;
+}
+
+/*Pied de page*/
+.bas{
+	display: flex;  
+	height: 150px;	 
+	align-items: center;  
+	justify-content: space-between;
+	background-color: black;
+	color: gray;
+	text-decoration: underline;
+	padding: 20px 70px;         
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 0px -10px 5px rgb(50,50,50);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.bas_texte{
+    margin: 0;
+	font-size: 14px;
+}
+
+.bas_logos{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.logo{
+	width: 40px;
+	height: auto;
+	display: block;
+}
+
+/*Fond de chaque page*/
+.corps{
+	margin:0;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url("Image/garage_bg.jpg");
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*Page d'accueil*/
+
+.car_img{
+	width: 375px;
+	height: 275px;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: 0 3px 6px grey;
+	display: block;
+}
+
+.boîte{
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 10px;
+}
+.boîte p{
+	display: flex;
+	height: 80px;
+	background: white;
+	border-color: white;
+	justify-content: center;  
+    align-items: center; 
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 0 3px 6px grey;
+	margin: 0;
+}
+
+.logov{
+    height: 80%;
+	display: block;
+	
+}
+
+.voitures{
+	display: flex;
+	justify-content: space-between;
+    width: 100%;
+	padding: 0 50px;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+.boîte:hover{
+    box-shadow: 0 6px 12px grey;
+}
+
+/*Page descriptive de chaque voiture*/
+
+.car-box{
+    width: 400px;            
+    box-shadow: 0 6px 12px grey;   
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px auto; 
+	background-color: white;
+}
+
+.car-image{
+    width: 100%;                         
+	border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+.car-info{
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    gap: 10px;                
+    padding: 10px 0;
+}
+
+.car-logo{
+    height: 50px;  
+    width: auto;
+}
+
+.car-model{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texte p{
+    text-align: justify;
+    margin: 0 90px 30px 90px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.texte h2{
+    margin: 0 90px 20px 90px;
+	text-decoration: underline;
+	font-size: 28px;
+}
+
+.caractéristiques{
+    max-width: 1000px;
+    margin: 0 90px 30px 90px;
+    box-sizing: border-box;
+}
+
+.caractéristiques h2{
+    margin: 0 0 30px 0;
+	text-decoration: underline;
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.liste{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.liste ul{
+    margin: 0;
+    flex: 1;
+}
+
+.audio{
+    width: 300px;
+}
+
+.audio h2{
+	margin-top: -20%;
+}
+
+/*Lorsque la voiture a 2 images supplémentaires*/
+.imgv2{	
+    display: flex;
+	gap: 5px;
+    width: 100%;
+	height: 550px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.imgv2 img{
+    width: 50%;
+	height: 400px;
+}
+
+.imgv2 img:last-child{
+    margin-top: 65px;
+}
+
+/*Lorsque que la voiture a 3 images supplémentaires*/
+.imgv3{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 600px; 
+}
+
+.left-images{
+    width: 50%;
+	height: 400px;
+}
+
+.right-images{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    height: 100%;
+}
+
+.right-images img:first-child{
+    margin-top: -15%;
+    height: 100%;      
+}
+
+.right-images img:last-child{
+    margin-bottom: -15%; 
+    height: 100%;         
+}
+
+
+
+
+@media (max-width: 500px){
+	
+	/*Page initiale*/
+    #accueil h1{
+        font-size: 32px;
+    }
+
+    #accueil p{
+        margin: 0 10px 20px 10px; 
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .entrée{
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+	/*Garage présentant les voitures*/
+	/*En tête*/
+    .bande{
+        font-size: 28px; 
+        height: 100px;
+        padding: 0 10px;
+        box-shadow: 0px 5px 5px black;
+    }
+
+    .return{
+        position: relative; 
+        left: 0;            
+        margin-bottom: 10px; 
+        font-size: 20px;    
+    }
+	
+	/*Pied de page*/
+    .bas{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bas_texte{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .bas_logos{
+        gap: 10px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+	.logo{
+        width: 25px;
+        height: auto;
+    }
+
+
+
+    /*Page d'accueil*/
+    .voitures{
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    .boîte{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .car_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .boîte p{
+        height: 60px;
+    }
+
+    .logov{
+        height: 70%;
+    }
+	
+	/*Page descriptive de chaque voiture*/
+    .car-box{
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .car-image{
+        height: auto;
+    }
+
+    .car-info{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .car-logo{
+        height: 40px;
+    }
+
+    .car-model{
+        font-size: 18px;
+    }
+
+    .texte p{
+        margin: 0 10px 20px 10px;
+        font-size: 14px;
+    }
+
+    .texte h2{
+        margin: 0 10px 15px 10px;
+        font-size: 20px;
+    }
+
+    .caractéristiques{
+        margin: 0 10px 20px 10px;
+    }
+
+    .caractéristiques h2{
+        font-size: 18px;
+    }
+
+    .liste{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .liste ul{
+        padding-left: 20px;
+    }
+
+    .audio{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .audio h2{
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    /*Lorsque la voiture a 2 images supplémentaires*/
+    .imgv2{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imgv2 img{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+		padding-bottom: 10px;
+    }
+
+	/*Lorsque la voiture a 3 images supplémentaires*/
+	.imgv3{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left-images,
+    .right-images,
+    .right-images img {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+	
+	.right-images {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 1100px){
+	
+	/*Page initiale*/
+	#accueil h1{
+		font-size: 50px;         
+    }
+
+    #accueil p{
+        margin: 0 50px 20px 50px; 
+		font-size: 18px;
+    }
+
+    .entrée{
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
+    }
+	
+	/*Garage présentant les voitures*/
+	/*En tête*/
+	.bande{
+        font-size: 40px;
+        height: 120px;
+        padding: 0 20px;
+    }
+
+    .return{
+        position: relative;
+        left: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+        display: inline-block;
+    }
+	
+	/*Pied de page*/
+	.bas{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .bas_texte{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .bas_logos{
+        justify-content: center;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .logo{
+        width: 30px;
+        height: auto;
+    }
+	
+	/*Page d'accueil*/
+	.voitures{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .boîte{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .car_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .logov{
+        height: 50px;
+    }
+
+	/*Page descriptive de chaque voiture*/
+	.car-box{
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .car-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .car-info{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .car-logo{
+        height: 50px;
+    }
+
+    .car-model{
+        font-size: 20px;
+    }
+
+    .texte p{
+        margin: 0 20px 20px 20px;
+        font-size: 15px;
+    }
+
+    .texte h2{
+        margin: 0 20px 15px 20px;
+        font-size: 18px;
+    }
+
+    .caractéristiques{
+        margin: 0 20px 20px 20px;
+    }
+
+    .caractéristiques h2{
+        font-size: 18px;
+    }
+
+    .liste{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .liste ul{
+        padding-left: 20px;
+    }
+
+    .audio{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .audio h2{
+        margin-top: 0;
+        font-size: 16px;
+    }
+	
+	/*Lorsque la voiture a 2 images supplémentaires*/
+	.imgv2{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .imgv2 img{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+		padding-bottom: 10px;
+    }
+	
+	/*Lorsque la voiture a 3 images supplémentaires*/
+	.imgv3{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left-images,
+    .right-images,
+    .right-images img{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+		padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1225px){
+	/*Page d'accueil*/
+	.voitures{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .boîte{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .car_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .logov{
+        height: 50px;
+    }
+}
+
