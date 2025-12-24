@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Snoopy Temime--Voisin Nathan </title>
+		<link rel="stylesheet" href="style_snoopy.css">
+	</head>
+	
+	<body>
+		<div>
+		<h1> <strong>SNOOPY </strong></h1>
+		<!--<p> <img src="img_snoopy.png" alt="image de snoopy" title="ma photo !"/></p>-->
+		<!--<p> <video src="Woodstock_Hiccups.mp4" controls="" width="600" poster="img_snoopy.png"></video>-->
+		Woodstock a le hoquet ! </p>
+		<h3> Mes activités favorites </h3> 
+		<p> (dans l'ordre) :)</p>
+		<ol> 
+			<li> dormir
+			<li> dormir
+			<li> manger
+			<li> dormir
+		</ol>
+		
+		<h3> Mes amis </h3> 
+		<ul> 
+			<li> Woodstock
+			<li> Charlie Brown
+			<li> Sally  Brown
+			<li> Lucy
+		</ul>	
+		</div>
+		
+		<!-- <a href="page_snoopy_en.html"> -->
+	</body>
+			
+		
+	<aside>
+		<p> I am one of the central characters in the comic strip Peanuts by American cartoonist Charles M. Schulz </p>
+	</aside>
+</html>

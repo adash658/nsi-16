@@ -1,0 +1,76 @@
+body {
+margin: 10mm;
+background-image: url("../ressources/cobble.png");
+background-repeat: repeat;
+}
+
+h1, h2, h3, h4 {
+color: white;
+background-color: rgb(80, 80, 80);
+padding: 10px;
+border-radius: 10px;
+width: fit-content;
+max-width: 90%; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+	margin-bottom: 60px;
+}
+
+header img {
+    height: 200px;
+    width: auto;
+}
+
+img {
+background-color: rgb(80, 80, 80);
+padding: 10px;
+border-radius: 20px;
+}
+
+p {
+text-align: justify;
+width: 600px;
+}
+
+@font-face {
+    font-family: "TengwarAnnatar";
+    src: url("../ressources/tngan.ttf") format("truetype");
+	font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tngan {
+    font-family: "TengwarAnnatar", sans-serif;
+}
+
+h4 a {
+  color: rgb(100,175,255);
+  text-decoration: none;
+}
+h4 a:hover {
+  text-decoration: underline;
+}
+
+.grille {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.item {
+background: rgb(200, 200, 200);
+word-wrap: break-word;
+padding: 10px;
+border-radius: 20px;
+overflow-wrap: anywhere;
+}
+
+.item img {
+height: 225px;
+width: auto;
+}

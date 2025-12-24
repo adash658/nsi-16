@@ -1,0 +1,106 @@
+html
+{
+	border: 6px dashed green;
+}
+body
+{
+	background-image: url("fond-ecran_snoopy.jpg");
+	background-size: cover;
+	display : flex;
+	flex-direction : column;
+}
+nav
+{
+	position: fixed;
+	border: 1px solid black;
+	width: 10%;
+	min-height: 100vh;
+	background-color : #ffc10778;
+	border-radius :5px;
+	box-shadow : 6px 4px #ffa5009e;
+	padding : 3px 3px 3px 3px;
+}
+section
+{
+	display: flex;
+	margin-left : 11%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap : 10px 20px
+}
+header
+{
+	display: flex;
+	padding-bottom: 60px;
+	margin-left: 12%;
+	justify-content : flex-start;
+	position : relative;
+	gap: 5px; 
+}
+
+article
+{
+	text-align: justify;
+	overflow: auto;
+	align-items: flex-start;
+	align-self:  flex-start;	
+}
+
+h1
+{
+	color: #cf1204;
+	font-weight : bold;
+	text-shadow: 2px 2px 4px #000000;
+	position : absolute;
+	text-align: center;
+	margin-bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+table
+{
+	width : 100%;
+	border: 2px solid violet;
+}
+td,th
+{
+	text-align : center;
+	vertical-align : middle;
+	border: 1px solid black
+}
+th{
+	background-color : white;
+}
+td
+{
+	background-color : #FFC107
+}
+caption 
+{
+	font-weight: bold;
+}
+video
+{
+	border: 4px solid #F44336
+}
+.vid
+{
+	border : 5px solid beige;
+	display : flex;
+	flex-direction : column;
+}
+.texte
+{
+	background-color : #f5f5dcab;
+	border-radius : 30px;
+	padding : 3px 3px 3px 3px;
+}
+
+
+@media screen and (max-width: 640px) {
+  nav {
+	  visibility : hidden
+  }
+}

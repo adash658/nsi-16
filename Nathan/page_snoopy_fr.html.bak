@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Snoopy Temime--Voisin Nathan </title>
+		<link rel="stylesheet" href="style_snoopy.css"/>
+	</head>
+	
+	<body>
+		<header>
+			<a href="page_snoopy_en.html"> <img src="uk.png" alt="drapeau uk" title="change language ton english" width="50px"/> </a>
+			<img src="fr.png" alt="drapeau français" title="langue: Français" width="50px">
+			<h1> <strong>SNOOPY </strong></h1>
+		</header>
+		
+		<nav>
+			<p> Je suis un des personnages centraux de la bande déssinée  <i> Peanuts </i> écrite par l'américain Charles M. Schulz</p>
+		</nav>
+		
+		<section>
+		
+			<article>
+				<p> <img src="img_snoopy.png" alt="image de snoopy" title="ma photo !"/> </p>	
+			</article>
+			
+			<article>
+				<table>
+					<caption> Les évenements importants de ma vie ! </caption>
+					<tr>
+					    <th>date</th>
+					    <th>évenements</th>
+					</tr>
+					<tr>
+					    <td>1950</td>
+					    <td>ma naissance</td>
+					</tr>
+					<tr>
+						<td> 2000</td>
+						<td> mort de mon créateur </td>
+					</tr>
+					<tr>
+					    <td>2025</td>
+					    <td>un super site web est créé sur moi !!! </td>
+					</tr>
+				</table>
+			</article>
+			
+			<article class="texte">
+				<h3> Mes activités favorites </h3> 
+				<p> (dans l'ordre)</p>
+				<ol type="I"> 
+					<li> dormir
+					<li> dormir
+					<li> manger
+					<li> dormir
+				</ol>
+			</article>
+			
+			<article class="texte">
+				<h3> Mes amis </h3> 
+				<ul> 
+					<li> Woodstock
+					<li> Charlie Brown
+					<li> Sally  Brown
+					<li> Lucy
+				</ul>	
+			</article>
+			
+			<article>
+				<p class="vid"> <video src="Woodstock_Hiccups.mp4" controls="" width="300" ></video>
+				Woodstock a le hoquet ! </p>
+			</article>
+			
+		</section>
+
+	</body>
+			
+</html>
