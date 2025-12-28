@@ -119,16 +119,17 @@ main img {
     }
 
     body {
-        font-size: 18px;
+        font-size: 40px;
     }
 
     a {
-        font-size: inherit;
+        font-size: 40px;
     }
     header {
         padding: 30px;
         margin: 0px;
     }
 }
+
 
 
