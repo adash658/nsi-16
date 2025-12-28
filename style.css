@@ -119,6 +119,8 @@ main img {
     main img {
         width: 140px;
         height: 140px;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     body {
@@ -133,6 +135,7 @@ main img {
         margin: 0px;
     }
 }
+
 
 
 
