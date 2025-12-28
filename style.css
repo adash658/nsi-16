@@ -105,9 +105,12 @@ main img {
         align-items: center;
         text-align: center;
         gap: 12px;
+    }
+    
+    .carte {
         padding: 5px 5px 5px 5px;
     }
-
+    
     .contenue {
         padding: 10px 0;
         align-items: center;
@@ -130,6 +133,7 @@ main img {
         margin: 0px;
     }
 }
+
 
 
 
